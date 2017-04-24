@@ -70,6 +70,9 @@
 	.plans-price h4 {
 		font-size: 1.5em;
 	}
+	.connect a {
+		margin-right: 0.6em;
+	}
 }
 @media screen and (max-width: 1080px) {
 	.navbar-m {
