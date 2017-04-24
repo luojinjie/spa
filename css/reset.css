@@ -1,0 +1,54 @@
+/*重置*/
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/Open Sans.woff2") format("woff2"),
+	url("../fonts/Open Sans.woff") format("woff"),
+	url("../fonts/Open Sans.ttf") format("truetype"),
+	url("../fonts/Open Sans.eot") format("embedded-opentype"),
+	url("../fonts/Open Sans.svg") format("svg");
+}
+
+body,h1,h2,h3,h4,h5,h6,hr,p,span,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select,object {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	font-size: 16px;
+	font-family: "Open Sans","sans-serif";
+}
+ul,ol {
+	list-style-type: none;
+}
+address,cite,code,em,th,i,h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	font-style: normal;
+}
+img {
+	border: none;
+}
+textarea {
+	overflow: auto;
+}
+a {
+	text-decoration: none;
+	color: #999999;
+}
+a:hover {
+	-webkit-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+}
+
+/*清除浮动*/
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	content: '\0020';
+}
+.clearfix {
+	zoom: 1;
+}
